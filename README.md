@@ -18,3 +18,6 @@ username and password should be the one used on MySQL WorkBench, MYSQL_DB the na
 
 Forking and collaborating on Github Desktop (https://www.youtube.com/watch?v=8x6V5IOuXog):
 1. Code dropdown --> Open with Github Desktop 
+
+
+Hello thsi is Wei Li
