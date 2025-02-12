@@ -9,9 +9,9 @@ MySQL Workbench:
 Project Directory:
 1. Create .env file
 2. env file should be populated with the following fields:
-# MYSQL_HOST= 127.0.0.1
-# MYSQL_USER=root 
-# MYSQL_PASSWORD=123456
-# MYSQL_DB=testdb
+MYSQL_HOST= 127.0.0.1
+MYSQL_USER=root 
+MYSQL_PASSWORD=123456
+MYSQL_DB=testdb
 
 username and password should be the one used on MySQL WorkBench, MYSQL_DB the name of your database on MYSQL Workbench
