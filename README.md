@@ -1,23 +1,45 @@
-Setting up and Requirements:
-1. Install Visual Studio Code 
-2. Install requirements.txt (pip install requirements.txt)
+# EE3180 DIP: SQL Attacks and Prevention 
 
-MySQL Workbench:
-1. Create new SQL connection
-2. Create new database (e.g. CREATE DATABASE testdb)
+This project aims to replicate known SQL attacks on a vulnerable database in order to exfiltrate privileged information as a low level operator. 
 
-Project Directory:
-1. Create .env file
-2. env file should be populated with the following fields:
-MYSQL_HOST= 127.0.0.1
-MYSQL_USER=root 
-MYSQL_PASSWORD=123456
-MYSQL_DB=testdb
+## Description
 
-username and password should be the one used on MySQL WorkBench, MYSQL_DB the name of your database on MYSQL Workbench
+<Include usage of SQL attacks after completion>
 
-Forking and collaborating on Github Desktop (https://www.youtube.com/watch?v=8x6V5IOuXog):
-1. Code dropdown --> Open with Github Desktop 
+## Getting Started
 
+### Dependencies
 
-Hello thsi is Wei Li
+* Visual Studio Code, MySQL Workbench
+
+### Executing program
+
+* Github Desktop Setup:
+* 1. Accept invitation for collaboration on Github repository
+* 2. Github desktop should autopopulate with this project repository
+* 3. Select clone repository locally (Recommend choosing your desktop for file path)
+
+* MySQL Workbench:
+* 1. Create new SQL connection
+* 2. Create new database (e.g. CREATE DATABASE testdb)
+
+* Running the website:
+* 1. Run the command "pip install -r requirements.txt" to install all python packages required for the website.
+* 2. Create .env file in EE3180-DIP-Project folder.
+* 3. Make the following changes to the .env file:
+![image](https://github.com/user-attachments/assets/96a1c9ac-e71a-4cde-bad0-fd2e58b942ef)
+* MYSQL_Host --> localhost
+* MYSQL_User --> default root
+* MYSQL_PASSWORD --> Your selected password
+* MYSQL_DB --> Name of your database in MySQL Workbench
+
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
