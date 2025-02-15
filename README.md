@@ -32,6 +32,8 @@ This project aims to replicate known SQL attacks on a vulnerable database in ord
 * MYSQL_User --> default root
 * MYSQL_PASSWORD --> Your selected password
 * MYSQL_DB --> Name of your database in MySQL Workbench
+* Open up a terminal and ensure that "mainapp.py" is in your current working directory.
+* Run the command "python mainapp.py"
 
 ```
 code blocks for commands
