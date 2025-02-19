@@ -24,9 +24,11 @@ This project aims to replicate known SQL attacks on a vulnerable database in ord
 * 2. Create new database (e.g. CREATE DATABASE testdb)
 
 * Running the website:
-* 1. Run the command "pip install -r requirements.txt" to install all python packages required for the website.
-* 2. Create .env file in EE3180-DIP-Project folder.
-* 3. Make the following changes to the .env file:
+* 1. Create a virtual environment "python -m venv venv"
+* 2. Activate a virtual environment "venv\Scripts\activate" 
+* 3. Run the command "pip install -r requirements.txt" to install all python packages required for the website.
+* 4. Create .env file in EE3180-DIP-Project folder.
+* 5. Make the following changes to the .env file:
 ![image](https://github.com/user-attachments/assets/96a1c9ac-e71a-4cde-bad0-fd2e58b942ef)
 * MYSQL_Host --> localhost
 * MYSQL_User --> default root
@@ -36,12 +38,17 @@ This project aims to replicate known SQL attacks on a vulnerable database in ord
 * Run the command "python mainapp.py"
 
 ```
-code blocks for commands
+code blocks for commands!
+
 ```
 
 ## Help
 
-Update database name in views.py
+1. Unable to activate virtual environment due to security error --> "Set-ExecutionPolicy Unrestricted -Scope Process"
+2. Update database name in views.py to the name of your database in MySQL Workbench.
+
+![changing database name_views](https://github.com/user-attachments/assets/71eb4ded-23cb-4423-bd54-c49cee01bfa2)
+
 ```
-![image](https://github.com/user-attachments/assets/cf67a8c7-537c-4742-a9e7-f6dba3f257b6)
+
 ```
