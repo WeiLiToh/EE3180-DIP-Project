@@ -58,4 +58,7 @@ SQLmap
 
 Example command: sqlmap.py -u "http://127.0.0.1:5000" --cookie="session=.eJwljjkOwzAMwP7iuYNkS3KUzwS2DrRr0kxF_94UGQkCBD9lyz2OZ1nf-xmPsr28rCX7TE9I5UoZTIk2GZObuYUsxBMyOYKM1bwZj9oBG8Mkdq-2kKBEsKdexGKdKGBgasXxjyUKQrZQGThparNQ7U6XEgEr18h5xH7fYPn-AFufMLk.Z7WSwA.U_tWC-N7OVAcQhJo9GRDxW-DKSA" --batch --dbs --crawl=3 --forms --level=5 --risk=3
 
+![image](https://github.com/user-attachments/assets/04ac003a-170e-4cb0-8b9c-d4bbe124c502)
+
+
 
