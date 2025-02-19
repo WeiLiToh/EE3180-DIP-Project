@@ -43,5 +43,5 @@ code blocks for commands
 
 Update database name in views.py
 ```
-![image](https://github.com/user-attachments/assets/b1dec163-938d-4b7a-927a-0b4cec8c4d33)
+![image](https://github.com/user-attachments/assets/cf67a8c7-537c-4742-a9e7-f6dba3f257b6)
 ```
