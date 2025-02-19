@@ -45,7 +45,7 @@ code blocks for commands!
 ## Help
 
 1. Unable to activate virtual environment due to security error --> "Set-ExecutionPolicy Unrestricted -Scope Process"
-2. Update database name in views.py to the name of your database in MySQL Workbench.
+2. In views.py --> Update user, password, database name. 
 
 ![changing database name_views](https://github.com/user-attachments/assets/71eb4ded-23cb-4423-bd54-c49cee01bfa2)
 
