@@ -9,7 +9,6 @@ db = SQLAlchemy()
 login_manager = LoginManager()
 migrate = Migrate()
 
-
 def create_app():
     app = Flask(__name__)
     #EBNCRYPT_KEY FOR THE APP

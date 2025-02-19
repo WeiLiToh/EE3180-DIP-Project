@@ -12,8 +12,7 @@
     </div>
 </form>
 
-
-{% if user.role.lower() == 'admin' %}  
+{% if user.role.lower() == 'admin' or (search_query and users|length > 1) %}  
     <h3>Admin Access - Full Database</h3>
     <table class="table table-striped">  
         <thead>  
@@ -41,8 +40,7 @@
             {% endfor %}  
         </tbody>  
     </table>  
-
-{% elif user.role.lower() == 'operator' %}  
+{% else %}  
     <h3>Operator Access - Limited Data</h3>
     <table class="table table-striped">  
         <thead>  
@@ -62,9 +60,6 @@
             {% endfor %}  
         </tbody>  
     </table>  
-
-{% else %}  
-    <h3>You do not have permission to view this data.</h3> <!-- is this even needed? -->
 {% endif %}  
 
 {% endblock %}  
