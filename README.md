@@ -41,7 +41,7 @@ code blocks for commands
 
 ## Help
 
-Any advise for common problems or issues.
+Update database name in views.py
 ```
-command to run if program contains helper info
+![image](https://github.com/user-attachments/assets/b1dec163-938d-4b7a-927a-0b4cec8c4d33)
 ```
